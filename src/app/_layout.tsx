@@ -19,3 +19,14 @@ export default function RootLayout() {
     </SafeAreaProvider>
   );
 }
+export default function RootLayout() {
+  return (
+    <Stack>
+      <Stack.Screen name="index" options={{ title: "Home" }} />
+      <Stack.Screen name="about" options={{ title: "About" }} />
+      <Stack.Screen name="recipe" options={{ title: "Recipe" }} />
+      <Stack.Screen name="recipe/[id]" options={{ title: "Detail Recipe" }} />
+
+    </Stack>
+  );
+}
