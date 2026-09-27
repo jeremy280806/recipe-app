@@ -9,6 +9,7 @@ const RecipeScreen = () => {
           Kembali ke Home
         </Link>
     </View>
-  )
+  );
 };
 
+export default RecipeScreen;
