@@ -6,8 +6,10 @@ const AboutScreen = () => {
         <View>
             <Text>Ini Halaman About</Text>
             <Link style={{fontSize: 20, color: "blue"}} href={"/"}>
-            Kembali ke Home
+                Kembali ke Home
             </Link>
         </View>
     );
-}
+};
+
+export default AboutScreen;
